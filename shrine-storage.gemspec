@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
 
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = ''
+    spec.metadata['allowed_push_host'] = 'https://github.com/anerhan/azure-storage.git'
 
     spec.metadata['homepage_uri'] = spec.homepage
     spec.metadata['source_code_uri'] = 'https://github.com/anerhan/azure-storage.git'
