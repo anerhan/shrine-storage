@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Extend existing shire gem with using official azure-storage-blob SDK'
   spec.description   = 'Extend existing shire gem with using official azure-storage-blob SDK'
-  spec.homepage      = 'https://github.com/anerhan/azure-storage.git'
+  spec.homepage      = 'https://github.com/anerhan/shrine-storage.git'
   spec.license       = 'MIT'
 
   if spec.respond_to?(:metadata)
@@ -36,7 +36,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_development_dependency 'bundler', '~> 1.17'
+  spec.add_development_dependency 'bundler', '~> 2.0.2'
   spec.add_development_dependency 'pry-byebug'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rubocop'
