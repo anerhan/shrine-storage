@@ -7,11 +7,11 @@ require 'shrine/storage/version'
 Gem::Specification.new do |spec|
   spec.name          = 'shrine-storage'
   spec.version       = Shrine::Storage::VERSION
-  spec.authors       = ['Dmitriy Bielorusov']
-  spec.email         = ['d.belorusov@gmail.com']
+  spec.authors       = ['Dmitriy Bielorusov', 'Syndicode LLC']
+  spec.email         = ['d.belorusov@gmail.com', 'info@syndicode.com']
 
-  spec.summary       = 'Extend existing shire gem with using official azure-storage-blob SDK'
-  spec.description   = 'Extend existing shire gem with using official azure-storage-blob SDK'
+  spec.summary       = 'Extend existing shrine gem with using official azure-storage-blob SDK'
+  spec.description   = 'Extend existing shrine gem with using official azure-storage-blob SDK'
   spec.homepage      = 'https://github.com/anerhan/shrine-storage.git'
   spec.license       = 'MIT'
 
